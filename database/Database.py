@@ -67,7 +67,7 @@ class Database:
     
     def execute_query(self, query: str, params: Optional[Tuple[Any, ...]] = None) -> List[Dict[str, Any]]:
         """
-        
+        executes any raw SQL query and returns the querried data
         """
         pass
         
